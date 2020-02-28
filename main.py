@@ -1,2 +1,2 @@
-from funciones import main
+from muestravariable import main
 main()

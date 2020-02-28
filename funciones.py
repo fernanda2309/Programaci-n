@@ -1,8 +1,8 @@
-# El codigo de la funcion es obligatorio. Si no hay codigo por el momento, usar pass
+# Si no hay codigo por el momento, usar pass
 def pendiente():
  pass
 
-# Si una variable se declara fuera de procedimiento se dice que es global 
+# Si una variable se define fuera  es global 
 variableglobal="Soy global"
 
 def norecibeargumentos():
@@ -10,16 +10,16 @@ def norecibeargumentos():
   print ("no recibe argumentos")
   print(variableglobal)
 
-# Si se comenta la siguiente linea, usar la variable equivale a declarar una version local de la variable; si no se comenta, usar la variable implica usar la global
+# Si se escribe la siguiente linea, usarla implica usar la global
 def recibeargumentos(fname, lname):
     print(fname + " " + lname)
     print("variableglobal")
 
-# Un argumento es opcional cuando le asignas un valor  al momento de su declaracion.
+ 
 def argumentosopcionales(city, country = "USA"):
   print("I am from " + city + ", " + country)
 
-# Si se especifica return, la funcion retorna valores 
+# la funcion retorna valores 
 def elevoalcuadrado(x):
   return x * x
 
