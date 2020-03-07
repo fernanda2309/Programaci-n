@@ -1,2 +1,2 @@
-from muestravariable import main
+from estructurado import main
 main()
