@@ -22,8 +22,8 @@ def strtodate (_dtconv):
 datetime.datetime(int(_dtocov[0:4]),int(_dtoconv[5:7]),int(_dtoconv[-2:]))
 
 def IngresoDatos():
-    askandcheck("^([A-Z ]){1,15}$","Alex en mayusculas: ")
-alex =captura
+    askandcheck("^([A-Z ]){1,15}$","Nick en mayusculas: ")
+nick =captura
 askandcheck("^([A-Z ]){1,20}$", "Nombre en mayusculas: ")
 nombre = captura
 askandcheck('\w+@\w+', "inserta tu correo: ")
@@ -36,4 +36,4 @@ askandcheck ("^([0-9]){1,7}$", "ingresa tus gastos: ")
 
 gastos = captura
 
-miscontactos.append(contacto(alex, nombre, correo, numero, fecha, gastos))
+miscontactos.append(contacto(nick, nombre, correo, numero, fecha, gastos))
